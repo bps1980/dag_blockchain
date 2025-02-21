@@ -1,0 +1,2 @@
+dot -Tpng dag_graph.dot -o dag_visualization.png
+

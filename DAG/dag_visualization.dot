@@ -1,0 +1,5 @@
+digraph DAG {
+    "tx-a65952f1-24ca-4a91-9f0e-f9be0c60937a" [label="tx-a65952f1-24ca-4a91-9f0e-f9be0c60937a"];
+    "tx-b29d9d44-c2a8-4b10-8d63-1d25df7588f4" [label="tx-b29d9d44-c2a8-4b10-8d63-1d25df7588f4"];
+    "tx-a65952f1-24ca-4a91-9f0e-f9be0c60937a" -> "tx-b29d9d44-c2a8-4b10-8d63-1d25df7588f4";
+}

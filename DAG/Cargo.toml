@@ -1,0 +1,20 @@
+[package]
+name = "dag"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.9.0"
+hex = "0.4"
+ring = "0.16.20"
+serde = { version = "1.0", features = ["derive"] }
+rayon = "1.6.1"
+clap = { version = "4.1", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"      # Add sha2 for hashing support
+base64 = "0.21"    # Add base64 for key encoding
+rand = "0.8.5"
+sqlx = { version = "0.6.3", features = ["runtime-tokio-native-tls", "postgres", "uuid", "time", "json"] }
+uuid = { version = "1.11.0", features = ["v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+dotenv = "0.15"

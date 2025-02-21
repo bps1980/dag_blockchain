@@ -1,0 +1,2 @@
+openssl genpkey -algorithm ED25519 -out alice_private_key.pem
+openssl pkcs8 -topk8 -nocrypt -in alice_private_key.pem -out alice_private_key.pk8
